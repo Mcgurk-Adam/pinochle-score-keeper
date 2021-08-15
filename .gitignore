@@ -1,0 +1,27 @@
+# base ignores
+.*
+~*
+*~
+*.ini
+
+# package distubution ignores
+node_modules/
+vendor/
+
+# app file ignores
+*.js
+*.css
+*.map
+
+# allowing test files
+!cypress/**/*
+
+# ignore all screenshots
+cypress/**/*.png
+
+# test file ignores
+*.mp4
+
+# ignoring git/github files
+!.gitignore
+!.github
